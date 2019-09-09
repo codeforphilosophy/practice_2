@@ -65,29 +65,35 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td> Empty</td>
-                    <td>Empty</td>
+                    <td></td>
+                    <td></td>
+                    <td>Avarage:</td>
+                    <td>82,79</td>
                 </tr>
             </tfoot>
         </table>
-    </section>
+    </section> <br>
+    
     <form action="" method="POST">
-        <div>
-            <label for="title">Course Title</label>
-            <input type="text" name="course_title" id="title" required>
-        </div>
-        <div>
-            <label for="semester">Semester</label>
-            <input type="text" name="course_semester" id="semester" required>
-        </div>
-        <div>
-            <label for="grade">Grade</label>
-            <input type="text" name="course_grade" id="grade" required>
-        </div>
-
-        <div>
-            <input type="submit">
-        </div>
+        <fieldset>
+            <legend> <h3>Add a New Course Here!</h3></legend>
+            <div>
+                <label for="title">Course Title:</label> <br>
+                <input type="text" name="course_title" id="title" required>
+            </div>
+            <div>
+                <label for="semester">Semester:</label><br>
+                <input type="text" name="course_semester" id="semester" required>
+            </div>
+            <div>
+                <label for="grade">Grade:</label><br>
+                <input type="text" name="course_grade" id="grade" required>
+            </div> <br>
+            
+            <div>
+                <input type="submit">
+            </div>
+        </fieldset>
     </form>
     <footer>
         <ul>
